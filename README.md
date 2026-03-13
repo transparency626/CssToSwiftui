@@ -1,6 +1,6 @@
-# CSS to SwiftUI / UIKit
+# CSS to SwiftUI
 
-Select any element on a web page to generate **SwiftUI** and **UIKit** code; copy and use in Xcode.
+Select any element on a web page to generate **SwiftUI** code; copy and use in Xcode.
 
 ## Installation
 
@@ -13,7 +13,7 @@ Select any element on a web page to generate **SwiftUI** and **UIKit** code; cop
 1. Open any web page
 2. Click the extension icon in the browser toolbar
 3. The page enters **pick mode**: hovering highlights the current element; **click** the area you want to convert
-4. A panel shows **SwiftUI** and **UIKit** code for that element; use the copy button to copy to clipboard
+4. A panel shows **SwiftUI** code for that element; use the copy button to copy to clipboard
 
 ## Files
 
