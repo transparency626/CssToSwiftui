@@ -1,0 +1,1 @@
+"use strict";chrome.action.onClicked.addListener((function(e){e&&e.id&&chrome.tabs.sendMessage(e.id,{type:"C2S_PICK"}).catch((function(){chrome.scripting.executeScript({target:{tabId:e.id},files:["converter.js","content.js"]},(function(){chrome.runtime.lastError||chrome.tabs.sendMessage(e.id,{type:"C2S_PICK"}).catch((function(){}))}))}))}));

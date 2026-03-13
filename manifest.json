@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "CssToSwiftui",
+  "version": "1.0.0",
+  "description": "Select page elements and convert their CSS to SwiftUI",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_title": "Select element → Convert CSS to SwiftUI"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["converter.js", "content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
