@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "CssToSwiftui",
+  "version": "1.0.0",
+  "description": "Select page elements and generate SwiftUI code",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_title": "Select element → Generate SwiftUI"
+  }
+}
